@@ -19,7 +19,7 @@ public class Persona {
     }
 
     public String getNombreProfession() {
-        return profesion.nombreProfesion();
+        return this.getProfesion().nombreProfesion();
     }
 
     public void setProfesion(Profesion profesion) {
